@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Ensures optimal rendering on mobile devices. -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- Optimal Internet Explorer compatibility -->
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1 align="center">Payment To Be Done!!!!</h1>
+
+<script src="https://www.paypal.com/sdk/js?client-id=test"></script>
+<script>paypal.Buttons({
+	  style: {
+		    layout:  'vertical',
+		    color:   'blue',
+		    shape:   'rect',
+		    label:   'paypal'
+		    
+		  }
+		}).render('body');</script>
+
+
+</body>
+</html>
