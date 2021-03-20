@@ -1,3 +1,17 @@
+
+<%
+
+
+String name = (String)session.getAttribute("name");
+String email = (String)session.getAttribute("email");
+if(name==null || email==null)
+{
+	response.sendRedirect("index.html");
+}
+
+%>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,7 +54,7 @@
 </head>
 <body class="host_version"> 
 
-	
+
 
    
 
@@ -61,7 +75,7 @@
 						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
 						<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Products</a>
+							<a class="nav-link dropdown-toggle" href="/features.html" id="dropdown-a" data-toggle="dropdown">Products</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
 								<a class="dropdown-item" href="features.html">Shoes </a>
 								<a class="dropdown-item" href="features1.html">Bags</a>
@@ -74,7 +88,6 @@
 						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 					</ul>
 					
-
 				</div>
 			</div>
 		</nav>
@@ -91,7 +104,14 @@
                         We offer you with wide range of sports goods at a cheaper rate than your local store!
                         You can complete your A-Z sports shopping with us hassle free, We ensure that our products are genuine and we deliver your order within 3 days of the purchase.</p>
                 </div>
+                
             </div><!-- end title -->
+            <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>ADD PRODUCTS</h3>
+                    <a href="product_add.html">Add Products</a>
+                </div>
+            </div>
 
             <hr class="invis"> 
 
@@ -107,44 +127,44 @@
                                         </div>
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
-                                            <img src="images\OUTFIT\madidasjacket.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <img src="images\SHOES\amenshoes6.jpg" height="230px" width="250px">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Rs:7200</strong> Mens_Shoe_Jordan Ultra Fly 2_SOAR/White-Black_897998-</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="pricing-table pricing-table-highlighted">
                                         <div class="pricing-table-header grd1">
-                                            <h2>Nike</h2>                                            
+                                            <h2>Adidas Football Shoes</h2>                                            
                                         </div>
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
-                                            <img src="images\OUTFIT\mnikejackets2.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <img src="images\SHOES\boot7.jpg" height="230px" width="250px">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Rs:7200</strong> Mens_Shoe_Jordan Ultra Fly 2_SOAR/White-Black_897998-</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="pricing-table pricing-table-highlighted">
                                         <div class="pricing-table-header grd1">
-                                            <h2>Puma</h2>                                        
+                                            <h2>Nike Football Shoes</h2>                                        
                                         </div>
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
-                                            <img src="images\OUTFIT\mpumajacket4.jpg"height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <img src="images\SHOES\boot13.jpg "height="230px" width="250px">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Rs:7200</strong> Mens_Shoe_Jordan Ultra Fly 2_SOAR/White-Black_897998-</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -158,150 +178,17 @@
                                 <div class="col-md-4 ">
                                     <div class="pricing-table pricing-table-highlighted">
                                         <div class="pricing-table-header grd1">
-                                            <h2>Nike</h2>
-                                            
-                                        </div>
-                                        <div class="pricing-table-space"></div>
-                                        <div class="pricing-table-features">
-                                            <img src="images\OUTFIT\mpumapant6.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
-                                        </div>
-                                        <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="pricing-table pricing-table-highlighted">
-                                        <div class="pricing-table-header grd1">
-                                            <h2>Nike</h2>
-                                            
-                                        </div>
-                                        <div class="pricing-table-space"></div>
-                                        <div class="pricing-table-features">
-                                            <img src="images\OUTFIT\mreebokjacket4.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
-                                        </div>
-                                        <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="pricing-table pricing-table-highlighted">
-                                        <div class="pricing-table-header grd1">
-                                            <h2>Nike</h2>
-                                           
-                                        </div>
-                                        <div class="pricing-table-space"></div>
-                                        <div class="pricing-table-features">
-                                            <img src="images\OUTFIT\mreeboktshirt3.jpgg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
-                                        </div>
-                                        <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                               
-
-                            </div><!-- end row -->
-                        </div><!-- end pane -->
-                        <hr class="hr3">
-                        <div class="tab-pane active fade show" id="tab1">
-                            <div class="row text-center">
-                                <div class="col-md-4 ">
-                                    <div class="pricing-table pricing-table-highlighted">
-                                        <div class="pricing-table-header grd1">
-                                            <h2>Nike</h2>
-                                           
-                                        </div>
-                                        <div class="pricing-table-space"></div>
-                                        <div class="pricing-table-features">
-                                            <img src="images\OUTFIT\mreeboktshirt4.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
-                                        </div>
-                                        <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="pricing-table pricing-table-highlighted">
-                                        <div class="pricing-table-header grd1">
-                                            <h2>Nike</h2>
-                                           
-                                        </div>
-                                        <div class="pricing-table-space"></div>
-                                        <div class="pricing-table-features">
-                                            <img src="images\OUTFIT\mvansjacket.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
-                                        </div>
-                                        <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="pricing-table pricing-table-highlighted">
-                                        <div class="pricing-table-header grd1">
-                                            <h2>Nike</h2>
-                                           
-                                        </div>
-                                        <div class="pricing-table-space"></div>
-                                        <div class="pricing-table-features">
-                                            <img src="images\OUTFIT\mvansjacket.png" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
-                                        </div>
-                                        <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                               
-
-                            </div><!-- end row -->
-                        </div><!-- end pane -->
-                        <hr class="hr3">
-                        <div class="tab-pane active fade show" id="tab1">
-                            <div class="row text-center">
-                                <div class="col-md-4 ">
-                                    <div class="pricing-table pricing-table-highlighted">
-                                        <div class="pricing-table-header grd1">
-                                            <h2>Nike</h2>
-                                            
-                                        </div>
-                                        <div class="pricing-table-space"></div>
-                                        <div class="pricing-table-features">
-                                            <img src="images\OUTFIT\nmenjackets.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
-                                        </div>
-                                        <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="pricing-table pricing-table-highlighted">
-                                        <div class="pricing-table-header grd1">
-                                            <h2>Nike</h2>
+                                            <h2>Adidas</h2>
                                         
                                         </div>
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
-                                            <img src="images\OUTFIT\summerlookshoe19.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <img src="images\SHOES\wreebokshoes6.jpg" height="230px" width="250px">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Rs:7200</strong> Mens_Shoe_Jordan Ultra Fly 2_SOAR/White-Black_897998-</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -309,16 +196,33 @@
                                     <div class="pricing-table pricing-table-highlighted">
                                         <div class="pricing-table-header grd1">
                                             <h2>Nike</h2>
-                                          
+                                            
                                         </div>
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
-                                            <img src="images\OUTFIT\wadidasjacket.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <img src="images\SHOES\jordan11.jpg" height="230px" width="250px">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Rs:7200</strong> Mens_Shoe_Jordan Ultra Fly 2_SOAR/White-Black_897998-</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="pricing-table pricing-table-highlighted">
+                                        <div class="pricing-table-header grd1">
+                                            <h2>Nike</h2>
+                                         
+                                        </div>
+                                        <div class="pricing-table-space"></div>
+                                        <div class="pricing-table-features">
+                                            <img src="images\SHOES\jordan14.jpg" height="230px" width="250px">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Rs:7200</strong> Mens_Shoe_Jordan Ultra Fly 2_SOAR/White-Black_897998-</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
+                                        </div>
+                                        <div class="pricing-table-sign-up">
+                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -337,12 +241,12 @@
                                         </div>
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
-                                            <img src="images\OUTFIT\wadidasjacket4.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <img src="images\SHOES\jordan16.jpg" height="230px" width="250px">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Rs:7200</strong> Mens_Shoe_Jordan Ultra Fly 2_SOAR/White-Black_897998-</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -350,16 +254,57 @@
                                     <div class="pricing-table pricing-table-highlighted">
                                         <div class="pricing-table-header grd1">
                                             <h2>Nike</h2>
-                                            <h3>$85/month</h3>
+                                            
                                         </div>
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
-                                            <img src="images\OUTFIT\wadidasjacket6.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <img src="images\SHOES\jordan20.jpg" height="230px" width="250px">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Rs:7200</strong> Mens_Shoe_Jordan Ultra Fly 2_SOAR/White-Black_897998-</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="pricing-table pricing-table-highlighted">
+                                        <div class="pricing-table-header grd1">
+                                            <h2>Nike</h2>
+                                            
+                                        </div>
+                                        <div class="pricing-table-space"></div>
+                                        <div class="pricing-table-features">
+                                            <img src="images\SHOES\mnikeshoes2.jpg" height="230px" width="250px">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Rs:7200</strong> Mens_Shoe_Jordan Ultra Fly 2_SOAR/White-Black_897998-</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
+                                        </div>
+                                        <div class="pricing-table-sign-up">
+                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+
+                            </div><!-- end row -->
+                        </div><!-- end pane -->
+                        <hr class="hr3">
+                        <div class="tab-pane active fade show" id="tab1">
+                            <div class="row text-center">
+                                <div class="col-md-4 ">
+                                    <div class="pricing-table pricing-table-highlighted">
+                                        <div class="pricing-table-header grd1">
+                                            <h2>Nike</h2>
+                                            
+                                        </div>
+                                        <div class="pricing-table-space"></div>
+                                        <div class="pricing-table-features">
+                                            <img src="images\SHOES\mnikeshoes3.jpg" height="230px" width="250px">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Rs:7200</strong> Mens_Shoe_Jordan Ultra Fly 2_SOAR/White-Black_897998-</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
+                                        </div>
+                                        <div class="pricing-table-sign-up">
+                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -371,12 +316,87 @@
                                         </div>
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
-                                            <img src="images\OUTFIT\wadidasskirt2.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <img src="images\SHOES\mnikeshoes6.jpg" height="230px" width="250px">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Rs:7200</strong> Mens_Shoe_Jordan Ultra Fly 2_SOAR/White-Black_897998-</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="pricing-table pricing-table-highlighted">
+                                        <div class="pricing-table-header grd1">
+                                            <h2>Nike</h2>
+                                         
+                                        </div>
+                                        <div class="pricing-table-space"></div>
+                                        <div class="pricing-table-features">
+                                            <img src="images\SHOES\mreebokshoes.jpg" height="230px" width="250px">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Rs:7200</strong> Mens_Shoe_Jordan Ultra Fly 2_SOAR/White-Black_897998-</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
+                                        </div>
+                                        <div class="pricing-table-sign-up">
+                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+
+                            </div><!-- end row -->
+                        </div><!-- end pane -->
+                        <hr class="hr3">
+                        <div class="tab-pane active fade show" id="tab1">
+                            <div class="row text-center">
+                                <div class="col-md-4 ">
+                                    <div class="pricing-table pricing-table-highlighted">
+                                        <div class="pricing-table-header grd1">
+                                            <h2>Nike</h2>
+                                            
+                                        </div>
+                                        <div class="pricing-table-space"></div>
+                                        <div class="pricing-table-features">
+                                            <img src="images\SHOES\mreebokshoes4.jpg" height="230px" width="250px">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Rs:7200</strong> Mens_Shoe_Jordan Ultra Fly 2_SOAR/White-Black_897998-</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
+                                        </div>
+                                        <div class="pricing-table-sign-up">
+                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="pricing-table pricing-table-highlighted">
+                                        <div class="pricing-table-header grd1">
+                                            <h2>Nike</h2>
+                                            
+                                        </div>
+                                        <div class="pricing-table-space"></div>
+                                        <div class="pricing-table-features">
+                                            <img src="images\SHOES\mreebokshoes5.jpg" height="230px" width="250px">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Rs:7200</strong> Mens_Shoe_Jordan Ultra Fly 2_SOAR/White-Black_897998-</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
+                                        </div>
+                                        <div class="pricing-table-sign-up">
+                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="pricing-table pricing-table-highlighted">
+                                        <div class="pricing-table-header grd1">
+                                            <h2>Nike</h2>
+                                           
+                                        </div>
+                                        <div class="pricing-table-space"></div>
+                                        <div class="pricing-table-features">
+                                            <img src="images\SHOES\wadidasshoes6.jpg" height="230px" width="250px">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Rs:7200</strong> Mens_Shoe_Jordan Ultra Fly 2_SOAR/White-Black_897998-</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
+                                        </div>
+                                        <div class="pricing-table-sign-up">
+                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -399,10 +419,9 @@
         </div><!-- end container -->
     </div><!-- end section -->
 
+	
 
     
-
-            
 
     <div class="parallax section dbcolor">
         <div class="container">
@@ -450,7 +469,7 @@
                         <ul class="footer-links">
                             <li><a href="./index.html">Home</a></li>
 							<li><a href="./about.html">About</a></li>
-						
+							
 							<li><a href="./contact.html">Contact</a></li>
                         </ul><!-- end links -->
                     </div><!-- end clearfix -->
@@ -477,7 +496,7 @@
     <div class="copyrights">
         <div class="container">
             <div class="footer-distributed">
-                
+               
 
                 <div class="footer-right">
                     <ul class="footer-links-soi">
@@ -490,7 +509,7 @@
         </div><!-- end container -->
     </div><!-- end copyrights -->
 
-  
+
 
     <!-- ALL JS FILES -->
     <script src="js/all.js"></script>

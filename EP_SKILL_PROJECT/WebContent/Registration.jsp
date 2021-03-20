@@ -18,7 +18,7 @@ try
 	
 	Class.forName("com.mysql.jdbc.Driver");
 	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ep_project","root","root");
-	PreparedStatement pstmt = con.prepareStatement("insert into registration(name,email,mobile,password) values(?,?,?,?)");
+	PreparedStatement pstmt = con.prepareStatement("insert into registration(name,email,mobile,password) values(?,?,?,md5(?))");
 	pstmt.setString(1,name);
 	pstmt.setString(2,email);
 	pstmt.setLong(3, mob);

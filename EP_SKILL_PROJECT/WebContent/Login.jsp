@@ -24,8 +24,7 @@ try
 	
 	 if(rs.next())
 	 {
-		System.out.println("Welcome" + email);
-		
+	
 		session.setAttribute("name",rs.getString(2));
 		session.setAttribute("email",rs.getString(3));
 		response.sendRedirect("index.jsp"); 

@@ -51,10 +51,7 @@ if(name==null || email==null)
     	alert('Registered Successfully');
     }
     
-    function loginValidate()
-    {
-    	alert('Login Successfully');
-    }
+ 
 
 </script>
 
@@ -153,8 +150,8 @@ if(name==null || email==null)
 				</button>
 				<div class="collapse navbar-collapse" id="navbars-host">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+						<li class="nav-item active"><a class="nav-link" href="index.jsp">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.jsp">About Us</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="features.html" id="dropdown-a" data-toggle="dropdown">Products</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
@@ -171,12 +168,15 @@ if(name==null || email==null)
 					<ul class="nav navbar-nav navbar-right">
                         <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Customer Login</span></a></li>
                     </ul>
+                   
 				</div>
 			</div>
 		</nav>
 	</header>
 	<!-- End header -->
-	
+	 <%=name%>
+	 <%=email %>
+	<a href="Logout.jsp" class="hover-btn-new">Logout</a>
 	<div id="carouselExampleControls" class="carousel slide bs-slider box-slider" data-ride="carousel" data-pause="hover" data-interval="false" >
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
@@ -212,8 +212,8 @@ if(name==null || email==null)
 							<div class="row">
 								<div class="col-md-12 col-sm-12 text-left">
 									<div class="big-tagline">
-										<h2 data-animation="animated zoomInRight">Find the right <strong>Hosting</strong></h2>
-										<p class="lead" data-animation="animated fadeInLeft">With Landigoo responsive landing page template, you can promote your all hosting, domain and email services. </p>
+										<h2 data-animation="animated zoomInRight">Nike<strong>HyperVenum</strong></h2>
+										<p class="lead" data-animation="animated fadeInLeft">Just Do It </p>
 											
 											<a href="#" class="hover-btn-new"><span>Read More</span></a>
 									</div>
@@ -256,8 +256,7 @@ if(name==null || email==null)
 		</div>
 	</div>
 	
-	<%=name%>
-	<%=email %>
+	
 
 	<div class="section cl">
 		<div class="container">
@@ -277,7 +276,7 @@ if(name==null || email==null)
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-mail"></i></span>
 					<p class="stat_count">5000</p>
-					<h3>Email Accounts</h3>
+					<h3>Registered Users</h3>
 				</div><!-- end col -->
 			</div><!-- end row -->
 		</div><!-- end container -->
@@ -348,7 +347,7 @@ if(name==null || email==null)
                         <ul class="footer-links">
                             <li><a href="./index.html">Home</a></li>
 							<li><a href="./about.html">About</a></li>
-							<li><a href="#">Faq</a></li>
+							
 							<li><a href="./contact.html">Contact</a></li>
                         </ul><!-- end links -->
                     </div><!-- end clearfix -->
@@ -379,11 +378,9 @@ if(name==null || email==null)
 
                 <div class="footer-right">
                     <ul class="footer-links-soi">
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-github"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-						<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+						<li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://mail.google.com/"><i class="fa fa-google"></i></a></li>
+						<li><a href="https://twitter.com/LOGIN"><i class="fa fa-twitter"></i></a></li>
 					</ul><!-- end links -->
                 </div>
             </div>

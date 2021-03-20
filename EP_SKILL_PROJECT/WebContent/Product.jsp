@@ -16,54 +16,45 @@
 
 try
 {
-	
-	
-	
-	
 
 
-	/*
+	
 	String product_name = request.getParameter("product_name");
 	
-	String product_desc = request.getParameter("product_desc");
+	String product_desc = request.getParameter("product_description");
 	
 	String price = request.getParameter("price");
 	
-	double cost = Double.parseDouble(price);*/
+	double cost = Double.parseDouble(price);
+	
+	String img = request.getParameter("myimg");
+	
+	String path = "C:\\Users\\HP\\Desktop\\SPORTKING\\images\\";
+	File imagefile=new File(path+img);
+	FileInputStream fis=new FileInputStream(imagefile);
 
-	String lockimg = request.getParameter("myimg");
-	System.out.print(lockimg);
 	
-	
-	
-	/*
-	File file = new File("/EP_SKILL_PROJECT/WebContent/images"+lockimg);
-	
-
-	FileInputStream fis = new FileInputStream(file);
+		
 	
 	
 	Class.forName("com.mysql.jdbc.Driver");
 	
 	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ep_project","root","root");
-	
-	System.out.println("Connection Done");
-	
 	PreparedStatement pstmt = con.prepareStatement("insert into products(product_desc,price,image,product_name) values(?,?,?,?)");
 	pstmt.setString(1,product_desc);
 	pstmt.setDouble(2,cost);
-	pstmt.setBinaryStream(3,fis,(int)file.length());
+	pstmt.setBinaryStream(3, (InputStream)fis, (int)(imagefile.length()));
 	pstmt.setString(4,product_name);
 	int n = pstmt.executeUpdate();
 	
 	if (n>0)
 	{
-		out.println("Prduct Added");
+		out.println("Product Added");
 	}
 	else
 	{
 		out.println("Product Not Added Successfully");
-	}*/
+	}
 	
 }
 

@@ -1,3 +1,15 @@
+<%
+
+
+String name = (String)session.getAttribute("name");
+String email = (String)session.getAttribute("email");
+if(name==null || email==null)
+{
+	response.sendRedirect("index.html");
+}
+
+%>
+
 <!DOCTYPE html>
 <html lang="en">
 
