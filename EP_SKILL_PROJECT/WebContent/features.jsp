@@ -6,7 +6,7 @@ String name = (String)session.getAttribute("name");
 String email = (String)session.getAttribute("email");
 if(name==null || email==null)
 {
-	response.sendRedirect("index.html");
+	response.sendRedirect("index.jsp");
 }
 
 %>
@@ -72,27 +72,32 @@ if(name==null || email==null)
 				</button>
 				<div class="collapse navbar-collapse" id="navbars-host">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+						<li class="nav-item active"><a class="nav-link" href="index.jsp">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.jsp">About Us</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="/features.html" id="dropdown-a" data-toggle="dropdown">Products</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="features.html">Shoes </a>
-								<a class="dropdown-item" href="features1.html">Bags</a>
-								<a class="dropdown-item" href="features3.html">Sports Wear</a>
+								<a class="dropdown-item" href="features.jsp">Shoes </a>
+								<a class="dropdown-item" href="features1.jsp">Bags</a>
+								<a class="dropdown-item" href="features3.jsp">Sports Wear</a>
 								<a class="dropdown-item" href="#">Sports Accessories</a>
 								<a class="dropdown-item" href="#">Fitness</a>
 							</div>
 						</li>
 						
-						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact1.jsp">Contact</a></li>
 					</ul>
-					
+					<ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log" href="Logout.jsp" ><span>Logout</span></a></li>
+                    </ul>
 				</div>
 			</div>
 		</nav>
 	</header>
 	<!-- End header -->
+		<%=name%>
+	 <%=email %>
+	
 	
 	
     <div id="overviews" class="section lb">
@@ -106,13 +111,28 @@ if(name==null || email==null)
                 </div>
                 
             </div><!-- end title -->
+            
+            
+            
+            <% 
+            try{
+            if(name.equalsIgnoreCase("Aditya Khandelwal") && email.equalsIgnoreCase("adityakhandelwal0033@gmail.com"))
+            {
+            %>
             <div class="section-title row text-center">
                 <div class="col-md-8 offset-md-2">
                     <h3>ADD PRODUCTS</h3>
-                    <a href="product_add.html">Add Products</a>
+                    <a href="Product.jsp">Add Products</a>
                 </div>
             </div>
-
+            <%
+            }
+            }
+            catch(Exception e){
+            	
+            System.out.println("Exception Occured");	
+            }
+            %>
             <hr class="invis"> 
 
             <div class="row">
@@ -132,7 +152,7 @@ if(name==null || email==null)
                                             <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -467,10 +487,9 @@ if(name==null || email==null)
                             <h3>Information Link</h3>
                         </div>
                         <ul class="footer-links">
-                            <li><a href="./index.html">Home</a></li>
-							<li><a href="./about.html">About</a></li>
-							
-							<li><a href="./contact.html">Contact</a></li>
+                            <li><a href="index.jsp">Home</a></li>
+							<li><a href="about.jsp">About</a></li>
+							<li><a href="contact1.jsp">Contact</a></li>
                         </ul><!-- end links -->
                     </div><!-- end clearfix -->
                 </div><!-- end col -->

@@ -60,79 +60,6 @@ if(name==null || email==null)
 </head>
 <body class="host_version"> 
 
-	<!-- Modal -->
-	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-		<div class="modal-content">
-			<div class="modal-header tit-up">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title">Customer Login</h4>
-			</div>
-			<div class="modal-body customer-box">
-				<!-- Nav tabs -->
-				<ul class="nav nav-tabs">
-					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
-					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
-				</ul>
-				<!-- Tab panes -->
-				<div class="tab-content">
-					<div class="tab-pane active" id="Login">
-						<form role="form" class="form-horizontal" onsubmit="return loginValidate();" method="post" action="Login.jsp">
-							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" name="email1" placeholder="Email" type="email" required>
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" name="pwd" placeholder="Password" type="password" required>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-10">
-									<input type="submit" class="btn btn-light btn-radius btn-brd grd1" name="submit">
-									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
-								</div>
-							</div>
-						</form>
-					</div>
-					<div class="tab-pane" id="Registration">
-						<form role="form" class="form-horizontal" method="post" onsubmit="return validRegister();" action="Registration.jsp">
-							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" name="name" placeholder="Name" type="text" required>
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" name="email" placeholder="Email" type="email" required>
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" name="mobile" placeholder="Mobile" pattern="[1-9]{1}[0-9]{9}" required>
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" name="password" placeholder="Password" type="password" required>
-								</div>
-                            </div>
-                            
-							<div class="row">							
-								<div class="col-sm-10">
-									<input type="submit" name="submit" class="btn btn-light btn-radius btn-brd grd1">
-									
-									
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	  </div>
-	</div>
 
     
 	
@@ -155,18 +82,18 @@ if(name==null || email==null)
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="features.html" id="dropdown-a" data-toggle="dropdown">Products</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="features.html">Shoes </a>
-								<a class="dropdown-item" href="features1.html">Bags</a>
-								<a class="dropdown-item" href="features3.html">Sports Wear</a>
+								<a class="dropdown-item" href="features.jsp">Shoes </a>
+								<a class="dropdown-item" href="features1.jsp">Bags</a>
+								<a class="dropdown-item" href="features3.jsp">Sports Wear</a>
 								<a class="dropdown-item" href="#">Sports Accessories</a>
 								<a class="dropdown-item" href="#">Fitness</a>
 							</div>
 						</li>
 						
-						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact1.jsp">Contact</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
-                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Customer Login</span></a></li>
+                        <li><a class="hover-btn-new log" href="Logout.jsp" ><span>Logout</span></a></li>
                     </ul>
                    
 				</div>
@@ -176,7 +103,7 @@ if(name==null || email==null)
 	<!-- End header -->
 	 <%=name%>
 	 <%=email %>
-	<a href="Logout.jsp" class="hover-btn-new">Logout</a>
+	
 	<div id="carouselExampleControls" class="carousel slide bs-slider box-slider" data-ride="carousel" data-pause="hover" data-interval="false" >
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
