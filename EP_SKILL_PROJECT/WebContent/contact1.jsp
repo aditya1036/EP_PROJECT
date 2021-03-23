@@ -57,7 +57,7 @@ if(name==null || email==null)
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand" href="index.jsp">
                     <img src="images/logo-hosting1.png" alt="" height="60px" width="100px"/>
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
@@ -104,6 +104,7 @@ if(name==null || email==null)
                 <p class="lead">Let us give you more details about the special offer website you want us. Please fill out the form below. <br>We have million of website owners who happy to work with us!</p>
             </div><!-- end title -->
 
+
             <div class="row">
                 <div class="col-sm-12">
                     <div class="contact_form">
@@ -132,11 +133,15 @@ if(name==null || email==null)
                         </form>
                     </div>
                 </div><!-- end col -->
-				
+        
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
+        </div><!-- end container -->
+    </div><!-- end section -->
 	
+
+
 
 
     <footer class="footer">

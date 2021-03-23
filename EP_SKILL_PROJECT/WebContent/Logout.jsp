@@ -14,7 +14,6 @@
 <%
 
 session.invalidate();
-session.setMaxInactiveInterval(10);
 request.getRequestDispatcher("index.jsp").forward(request, response);
 
 %>

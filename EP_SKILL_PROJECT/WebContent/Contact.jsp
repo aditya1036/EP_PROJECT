@@ -4,6 +4,10 @@
 
 <%
 
+
+String name = (String)session.getAttribute("name");
+String email1 = (String)session.getAttribute("email");
+
 String first_name = request.getParameter("first_name");
 String last_name = request.getParameter("last_name");
 String email = request.getParameter("email");
@@ -29,7 +33,6 @@ int n = pstmt.executeUpdate();
 if(n>0)
 {
 	out.println("Query Submitted");
-	
 }
 
 else
@@ -98,19 +101,19 @@ else
 				</button>
 				<div class="collapse navbar-collapse" id="navbars-host">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+						<li class="nav-item"><a class="nav-link" href="index.jsp">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.jsp">About Us</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Products </a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="features.html">Shoes </a>
-								<a class="dropdown-item" href="features1.html">Bags</a>
-								<a class="dropdown-item" href="features3.html">Sports Wear</a>
+								<a class="dropdown-item" href="features.jsp">Shoes </a>
+								<a class="dropdown-item" href="features1.jsp">Bags</a>
+								<a class="dropdown-item" href="features3.jsp">Sports Wear</a>
 								<a class="dropdown-item" href="#">Sports Accessories</a>
 								<a class="dropdown-item" href="#">Fitness</a>
 							</div>
 						</li>
-						<li class="nav-item active"><a class="nav-link" href="#">Contact</a></li>
+						<li class="nav-item active"><a class="nav-link" href="contact1.jsp">Contact</a></li>
 					</ul>
 					
 				</div>
@@ -118,9 +121,8 @@ else
 		</nav>
 	</header>
 	<!-- End header -->
-	
-
-	
+	<%=name %>
+	<%=email %>
     <div id="support" class="section wb">
         <div class="container-fulid">
             <div class="section-title text-center">
@@ -182,9 +184,9 @@ else
                             <h3>Information Link</h3>
                         </div>
                         <ul class="footer-links">
-                            <li><a href="./index.html">Home</a></li>
-							<li><a href="./about.html">About</a></li>
-							<li><a href="./contact.html">Contact</a></li>
+                            <li><a href="index.jsp">Home</a></li>
+							<li><a href="about.jsp">About</a></li>
+							<li><a href="contact1.jsp">Contact</a></li>
                         </ul><!-- end links -->
                     </div><!-- end clearfix -->
                 </div><!-- end col -->

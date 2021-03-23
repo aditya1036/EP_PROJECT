@@ -59,7 +59,7 @@ if(name==null || email==null)
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand" href="index.jsp">
 					<img src="images/logo-hosting1.png" alt="" height="60px" width="100px"/>
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
@@ -141,8 +141,8 @@ You can complete your A-Z sports shopping with us hassle free, We ensure that ou
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\bags\abags.jpg" height="230px" width="250px">
-                                           <p><i class="fa fa-envelope-o"></i> <strong>Rs:7200</strong> Mens_Shoe_Jordan Ultra Fly 2_SOAR/White-Black_897998-</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
+                                           <p><i class="fa fa-envelope-o"></i> <strong>Rs:3600</strong>UNISEX ADIDAS TRAINING PARKHOOD 0.2 BPL BACKPACK</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>15 LITRES</strong></p>
                                         </div>
                                         <div class="pricing-table-sign-up">
                                             <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
@@ -158,12 +158,12 @@ You can complete your A-Z sports shopping with us hassle free, We ensure that ou
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\bags\abags2.jpg" height="230px" width="250px">
-                                       <p><i class="fa fa-envelope-o"></i> <strong>Rs:7200</strong> Mens_Shoe_Jordan Ultra Fly 2_SOAR/White-Black_897998-</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
+                                       <p><i class="fa fa-envelope-o"></i> <strong>Rs:3600</strong>UNISEX ADIDAS TRAINING PARKHOOD 0.2 BPL BACKPACK</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>15 LITRES</strong></p>
                                            
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -176,12 +176,12 @@ You can complete your A-Z sports shopping with us hassle free, We ensure that ou
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\bags\mnikebags2.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>Rs:7200</strong> Mens_Shoe_Jordan Ultra Fly 2_SOAR/White-Black_897998-</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Rs:3600</strong>UNISEX ADIDAS TRAINING PARKHOOD 0.2 BPL BACKPACK</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>15 LITRES</strong></p>
                                             
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -201,12 +201,12 @@ You can complete your A-Z sports shopping with us hassle free, We ensure that ou
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\bags\mnikebags3.jpg" height="230px" width="250px">
-                                     <p><i class="fa fa-envelope-o"></i> <strong>Rs:7200</strong> Mens_Shoe_Jordan Ultra Fly 2_SOAR/White-Black_897998-</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
+                                     <p><i class="fa fa-envelope-o"></i> <strong>Rs:3600</strong>UNISEX ADIDAS TRAINING PARKHOOD 0.2 BPL BACKPACK</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>15 LITRES</strong></p>
                                             
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -219,12 +219,13 @@ You can complete your A-Z sports shopping with us hassle free, We ensure that ou
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\bags\mnikebags5.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                         <p><i class="fa fa-envelope-o"></i> <strong>Rs:3600</strong>UNISEX ADIDAS TRAINING PARKHOOD 0.2 BPL BACKPACK</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>15 LITRES</strong></p>
+                                            
                                             
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -237,11 +238,12 @@ You can complete your A-Z sports shopping with us hassle free, We ensure that ou
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\bags\mpumabag2.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                         <p><i class="fa fa-envelope-o"></i> <strong>Rs:3600</strong>UNISEX ADIDAS TRAINING PARKHOOD 0.2 BPL BACKPACK</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>15 LITRES</strong></p>
+                                            
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -261,12 +263,13 @@ You can complete your A-Z sports shopping with us hassle free, We ensure that ou
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\bags\mpumabag3.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                         <p><i class="fa fa-envelope-o"></i> <strong>Rs:3600</strong>UNISEX ADIDAS TRAINING PARKHOOD 0.2 BPL BACKPACK</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>15 LITRES</strong></p>
+                                            
 
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -279,11 +282,12 @@ You can complete your A-Z sports shopping with us hassle free, We ensure that ou
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\bags\mpumabag6.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                         <p><i class="fa fa-envelope-o"></i> <strong>Rs:3600</strong>UNISEX ADIDAS TRAINING PARKHOOD 0.2 BPL BACKPACK</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>15 LITRES</strong></p>
+                                            
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -296,12 +300,13 @@ You can complete your A-Z sports shopping with us hassle free, We ensure that ou
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\bags\mreebokbag2.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                         <p><i class="fa fa-envelope-o"></i> <strong>Rs:3600</strong>UNISEX ADIDAS TRAINING PARKHOOD 0.2 BPL BACKPACK</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>15 LITRES</strong></p>
+                                            
                                           
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -321,11 +326,12 @@ You can complete your A-Z sports shopping with us hassle free, We ensure that ou
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\bags\mreebokbag6.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                         <p><i class="fa fa-envelope-o"></i> <strong>Rs:3600</strong>UNISEX ADIDAS TRAINING PARKHOOD 0.2 BPL BACKPACK</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>15 LITRES</strong></p>
+                                            
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -338,11 +344,12 @@ You can complete your A-Z sports shopping with us hassle free, We ensure that ou
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\bags\mvansbag4.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                         <p><i class="fa fa-envelope-o"></i> <strong>Rs:3600</strong>UNISEX ADIDAS TRAINING PARKHOOD 0.2 BPL BACKPACK</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>15 LITRES</strong></p>
+                                            
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -355,11 +362,12 @@ You can complete your A-Z sports shopping with us hassle free, We ensure that ou
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\bags\rbags8.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                         <p><i class="fa fa-envelope-o"></i> <strong>Rs:3600</strong>UNISEX ADIDAS TRAINING PARKHOOD 0.2 BPL BACKPACK</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>15 LITRES</strong></p>
+                                            
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -379,12 +387,13 @@ You can complete your A-Z sports shopping with us hassle free, We ensure that ou
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\bags\rbags9.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                         <p><i class="fa fa-envelope-o"></i> <strong>Rs:3600</strong>UNISEX ADIDAS TRAINING PARKHOOD 0.2 BPL BACKPACK</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>15 LITRES</strong></p>
+                                            
                                             
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -397,11 +406,12 @@ You can complete your A-Z sports shopping with us hassle free, We ensure that ou
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\bags\rbags11.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                         <p><i class="fa fa-envelope-o"></i> <strong>Rs:3600</strong>UNISEX ADIDAS TRAINING PARKHOOD 0.2 BPL BACKPACK</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>15 LITRES</strong></p>
+                                            
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -414,12 +424,13 @@ You can complete your A-Z sports shopping with us hassle free, We ensure that ou
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\bags\rbags12.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                         <p><i class="fa fa-envelope-o"></i> <strong>Rs:3600</strong>UNISEX ADIDAS TRAINING PARKHOOD 0.2 BPL BACKPACK</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>15 LITRES</strong></p>
+                                            
                                           
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>

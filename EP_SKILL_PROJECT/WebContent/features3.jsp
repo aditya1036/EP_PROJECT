@@ -57,7 +57,7 @@ if(name==null || email==null)
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand" href="index.jsp">
 					<img src="images/logo-hosting1.png" alt="" height="60px" width="100px"/>
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
@@ -103,7 +103,7 @@ if(name==null || email==null)
                     <h3>PRODUCTS</h3>
                     <p class="lead">Looking for a good trendy sport shoes that matches your sports wear? Or want some fitness essentials to make your fitness journey blissful? You are at the right place!
                         We offer you with wide range of sports goods at a cheaper rate than your local store!
-                        You can complete your A-Z sports shopping with us hassle free, We ensure that our products are genuine and we deliver your order within 3 days of the purchase.</p>
+                        You can complete your A-Z sports shopping with us hassle free, We ensure that our products are Nylon and we deliver your order within 3 days of the purchase.</p>
                 </div>
             </div><!-- end title -->
             <% 
@@ -141,11 +141,11 @@ if(name==null || email==null)
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\OUTFIT\madidasjacket.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Adidas Rebo (XL)</strong>Rs:5000 </p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Polyester</strong> 100% Original</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -157,11 +157,11 @@ if(name==null || email==null)
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\OUTFIT\mnikejackets2.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Nike Awes (large)</strong>Rs:5000 </p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Nylon</strong> 100% Original</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -173,11 +173,11 @@ if(name==null || email==null)
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\OUTFIT\mpumajacket4.jpg"height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Puma maxo (XXL)</strong>Rs:5000 </p>
+                                            <p><i class="fa fa-rocket"></i> <strong>poly cotton</strong> 100% Original</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -197,11 +197,11 @@ if(name==null || email==null)
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\OUTFIT\mpumapant6.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Puma Regal (XL)</strong>Rs:5000 </p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Nylon</strong> 100% Original</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -214,11 +214,11 @@ if(name==null || email==null)
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\OUTFIT\mreebokjacket4.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Reebok Raga (XL)</strong>Rs:5000 </p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Nylon</strong> 100% Original</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -231,11 +231,11 @@ if(name==null || email==null)
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\OUTFIT\mreeboktshirt3.jpgg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <p><i class="fa fa-envelope-o"></i> <strong>Reebok Vivo (XL)</strong>Rs:5000 </p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Polyester</strong> 100% Original</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -255,11 +255,11 @@ if(name==null || email==null)
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\OUTFIT\mreeboktshirt4.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <p><i class="fa fa-envelope-o"></i> <strong>XL</strong>Rs:5000 </p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Nylon</strong> 100% Original</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -272,11 +272,11 @@ if(name==null || email==null)
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\OUTFIT\mvansjacket.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <p><i class="fa fa-envelope-o"></i> <strong>XL</strong>Rs:5000 </p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Nylon</strong> 100% Original</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -289,11 +289,11 @@ if(name==null || email==null)
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\OUTFIT\mvansjacket.png" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <p><i class="fa fa-envelope-o"></i> <strong>XL</strong>Rs:5000 </p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Nylon</strong> 100% Original</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -313,11 +313,11 @@ if(name==null || email==null)
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\OUTFIT\nmenjackets.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <p><i class="fa fa-envelope-o"></i> <strong>XL</strong>Rs:5000 </p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Nylon</strong> 100% Original</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -330,11 +330,11 @@ if(name==null || email==null)
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\OUTFIT\summerlookshoe19.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <p><i class="fa fa-envelope-o"></i> <strong>XL</strong>Rs:5000 </p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Nylon</strong> 100% Original</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -347,11 +347,11 @@ if(name==null || email==null)
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\OUTFIT\wadidasjacket.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <p><i class="fa fa-envelope-o"></i> <strong>XL</strong>Rs:5000 </p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Nylon</strong> 100% Original</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -371,11 +371,11 @@ if(name==null || email==null)
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\OUTFIT\wadidasjacket4.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <p><i class="fa fa-envelope-o"></i> <strong>XL</strong>Rs:5000 </p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Nylon</strong> 100% Original</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -383,16 +383,16 @@ if(name==null || email==null)
                                     <div class="pricing-table pricing-table-highlighted">
                                         <div class="pricing-table-header grd1">
                                             <h2>Nike</h2>
-                                            <h3>$85/month</h3>
+                                            <h3>Rs:85/month</h3>
                                         </div>
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\OUTFIT\wadidasjacket6.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <p><i class="fa fa-envelope-o"></i> <strong>XL</strong>Rs:5000 </p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Nylon</strong> 100% Original</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -405,11 +405,11 @@ if(name==null || email==null)
                                         <div class="pricing-table-space"></div>
                                         <div class="pricing-table-features">
                                             <img src="images\OUTFIT\wadidasskirt2.jpg" height="230px" width="250px">
-                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <p><i class="fa fa-envelope-o"></i> <strong>XL</strong>Rs:5000 </p>
+                                            <p><i class="fa fa-rocket"></i> <strong>Nylon</strong> 100% Original</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>

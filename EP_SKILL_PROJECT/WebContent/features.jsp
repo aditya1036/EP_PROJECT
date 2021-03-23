@@ -62,7 +62,7 @@ if(name==null || email==null)
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand" href="index.jsp">
 					<img src="images/logo-hosting1.png" alt="" height="60px" width="100px"/>
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
@@ -168,7 +168,7 @@ if(name==null || email==null)
                                             <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -184,7 +184,7 @@ if(name==null || email==null)
                                             <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -208,7 +208,7 @@ if(name==null || email==null)
                                             <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -225,7 +225,7 @@ if(name==null || email==null)
                                             <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -242,7 +242,7 @@ if(name==null || email==null)
                                             <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -266,7 +266,7 @@ if(name==null || email==null)
                                             <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -283,7 +283,7 @@ if(name==null || email==null)
                                             <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -300,7 +300,7 @@ if(name==null || email==null)
                                             <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -324,7 +324,7 @@ if(name==null || email==null)
                                             <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -341,7 +341,7 @@ if(name==null || email==null)
                                             <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -358,7 +358,7 @@ if(name==null || email==null)
                                             <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -382,7 +382,7 @@ if(name==null || email==null)
                                             <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -399,7 +399,7 @@ if(name==null || email==null)
                                             <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -416,7 +416,7 @@ if(name==null || email==null)
                                             <p><i class="fa fa-rocket"></i> <strong>Sizes avilable</strong> Uk-6,7,8,9</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>

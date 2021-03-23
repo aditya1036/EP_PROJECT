@@ -1,14 +1,4 @@
-<%
 
-
-String name = (String)session.getAttribute("name");
-String email = (String)session.getAttribute("email");
-if(name==null || email==null)
-{
-	response.sendRedirect("index.jsp");
-}
-
-%>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -40,7 +30,14 @@ if(name==null || email==null)
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
-
+<style>
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 60px;
+  border-radius: 80%;
+}
+</style>
     <!-- Modernizer for Portfolio -->
     <script src="js/modernizer.js"></script>
 
@@ -60,7 +57,7 @@ if(name==null || email==null)
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand" href="index.jsp">
 					<img src="images/logo-hosting1.png" height="60px" width="100px"/>
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,29 +69,15 @@ if(name==null || email==null)
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item"><a class="nav-link" href="index.jsp">Home</a></li>
 						<li class="nav-item active"><a class="nav-link" href="about.jsp">About Us</a></li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Products</a>
-							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="features.jsp">Shoes </a>
-								<a class="dropdown-item" href="features1.jsp">Bags</a>
-								<a class="dropdown-item" href="features3.jsp">Sports Wear</a>
-								<a class="dropdown-item" href="#">Sports Accessories</a>
-								<a class="dropdown-item" href="#">Fitness</a>
-							</div>
-						</li>
-						
 						<li class="nav-item"><a class="nav-link" href="contact1.jsp">Contact</a></li>
 						</ul>
-					<ul class="nav navbar-nav navbar-right">
-                        <li><a class="hover-btn-new log" href="Logout.jsp" ><span>Logout</span></a></li>
-                    </ul>
+				
 				</div>
 			</div>
 		</nav>
 	</header>
 	<!-- End header -->
-	<%=name%>
-	 <%=email %>
+
 	
 	
 	
@@ -156,32 +139,63 @@ if(name==null || email==null)
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
-
-
-    <div class="parallax section dbcolor">
+    
+     <div id="testimonials" class="parallax section db parallax-off">
         <div class="container">
-            <div class="row logos">
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="images/logo_01.png"width="460px" height="113px" alt="" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="images/logo_02.png" width="460px" height="113px"alt="" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="images/logo_03.png"width="460px" height="113px" alt="" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="images/logo_04.png" width="460px" height="113px"alt="" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="images/logo_05.png" width="460px" height="113px"alt="" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="images/logo_06.png" width="460px" height="113px"alt="" class="img-repsonsive"></a>
-                </div>
+            <div class="section-title text-center">
+                <h3>Our Team</h3>
+                <p>Web Developer</p>
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="testi-carousel owl-carousel owl-theme">
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i>Great & Talented Team!</h3>
+                                <p class="lead">Individual commitment to a group effort--that is what makes a team work, a company work, a society work, a civilization work.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="images/testi_03.jpg" alt="">
+                                <h4>Balivada Sai Rohit</h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i>Great & Talented Team!</h3>
+                                <p class="lead">The strength of the team is each individual member. The strength of each member is the team.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="images/testi_01.jpg" alt="" >
+                                <h4>Chilla Pavan Karthik</h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
+                                <p class="lead">Teamwork is the ability to work together toward a common vision. The ability to direct individual accomplishments toward organizational objectives. It is the fuel that allows common people to attain uncommon results.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="images/testi_02.jpg" alt="" >
+                                <h4>Aditya Khandelwal</h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+                
+
+                    </div><!-- end carousel -->
+                </div><!-- end col -->
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
+    
 
 
 
