@@ -182,7 +182,7 @@ label.light {
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand" href="index.jsp">
 					<img src="images/logo-hosting1.png" alt="" height="60px" width="100px"/>
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
@@ -245,10 +245,10 @@ label.light {
                             <h3>Information Link</h3>
                         </div>
                         <ul class="footer-links">
-                            <li><a href="./index.html">Home</a></li>
-							<li><a href="./about.html">About</a></li>
+                            <li><a href="index.jsp">Home</a></li>
+							<li><a href="about.jsp">About</a></li>
 							
-							<li><a href="./contact.html">Contact</a></li>
+							<li><a href="contact1.jsp">Contact</a></li>
                         </ul><!-- end links -->
                     </div><!-- end clearfix -->
                 </div><!-- end col -->

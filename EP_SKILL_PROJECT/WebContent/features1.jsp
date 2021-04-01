@@ -40,8 +40,7 @@ if(name==null || email==null)
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
-
-    <!-- Modernizer for Portfolio -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <!-- Modernizer for Portfolio -->
     <script src="js/modernizer.js"></script>
 
     <!--[if lt IE 9]>
@@ -95,8 +94,17 @@ if(name==null || email==null)
 	<%=name%>
 	 <%=email %>
 
-	
-	
+    
+        <form class="navbar-form" action="Search.jsp" role="search">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search" name="srch-term">
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+        </form>
+ 
+        
     <div id="overviews" class="section lb">
         <div class="container">
             <div class="section-title row text-center">
@@ -145,7 +153,7 @@ You can complete your A-Z sports shopping with us hassle free, We ensure that ou
                                             <p><i class="fa fa-rocket"></i> <strong>15 LITRES</strong></p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="Payment.html" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="Payment.jsp" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>

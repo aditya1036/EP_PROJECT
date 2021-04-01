@@ -27,7 +27,6 @@ try
 	
 		session.setAttribute("name",rs.getString(2));
 		session.setAttribute("email",rs.getString(3));
-		session.setMaxInactiveInterval(20);
 		response.sendRedirect("index.jsp"); 
 	 }
 	 
