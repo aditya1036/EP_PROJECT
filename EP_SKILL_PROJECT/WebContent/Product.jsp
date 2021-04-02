@@ -20,7 +20,7 @@ try
 	
 	String img = request.getParameter("myimg");
 	
-	String path = "C:\\Users\\HP\\Desktop\\SPORTKING\\images\\";
+	String path = "C:\\Users\\Chilla Pavan Karthik\\Desktop\\SportsKing\\images\\";
 	File imagefile=new File(path+img);
 	FileInputStream fis=new FileInputStream(imagefile);
 

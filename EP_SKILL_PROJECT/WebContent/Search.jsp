@@ -5,17 +5,22 @@
 
 <%
 
-String src_term = (String)request.getParameter("srch-term");
+String keyword = (String)request.getParameter("srch-term");
 
 try
 {
 	
 	Class.forName("com.mysql.jdbc.Driver");
 	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ep_project","root","root");
-	PreparedStatement pstmt = con.prepareStatement("select * from products where product_name like ? ");
-	pstmt.setString(1,'%'+src_term+'%');
+	//PreparedStatement pstmt = con.prepareStatement("select * from products where product_name like ? ");
+	//pstmt.setString(1,'%'+src_term+'%');
 	
-	ResultSet rs = pstmt.executeQuery();
+	//ResultSet rs = pstmt.executeQuery();
+	
+	
+	ResultSet rs = con.createStatement().executeQuery( " select * from products where product_name like  '%"+keyword+"%'     "  );
+	
+	
 	%>
 	
 	<table class="table">
@@ -31,14 +36,18 @@ try
 	<%
 	while(rs.next())
 	{
+		
+		
 		%>
 	
   <tr>
     <td><%=rs.getInt(1) %></td>
     <td><%=rs.getString(5) %></td>
     <td><%=rs.getString(2) %></td>
-    <td><%=rs.getString(3) %></td>
+    <td><%=rs.getInt(3) %></td>
+    <td><img src="viewImage.jsp?id=<%=rs.getInt(1)%>"></td>
   </tr>
+
 
 <%
 	
