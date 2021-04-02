@@ -95,15 +95,7 @@ if(name==null || email==null)
 	 <%=email %>
 
     
-        <form class="navbar-form" action="Search.jsp" role="search">
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search" name="srch-term">
-            <div class="input-group-btn">
-                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
-            </div>
-        </div>
-        </form>
- 
+       
         
     <div id="overviews" class="section lb">
         <div class="container">
