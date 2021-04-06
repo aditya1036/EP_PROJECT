@@ -72,9 +72,9 @@ if(name==null || email==null)
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Products</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="features.jsp">Shoes </a>
-								<a class="dropdown-item" href="features1.jsp">Bags</a>
-								<a class="dropdown-item" href="features3.jsp">Sports Wear</a>
+								<a class="dropdown-item" href="Search.jsp">Shoes </a>
+								<a class="dropdown-item" href="Search.jsp">Bags</a>
+								<a class="dropdown-item" href="Search.jsp">Sports Wear</a>
 								<a class="dropdown-item" href="#">Sports Accessories</a>
 								<a class="dropdown-item" href="#">Fitness</a>
 							</div>
