@@ -20,7 +20,9 @@ try
 	
 	String img = request.getParameter("myimg");
 	
-	String path = "C:\\Users\\Chilla Pavan Karthik\\Desktop\\SportsKing\\images\\";
+	
+	String category = request.getParameter("product_category");
+	String path = "C:\\Users\\HP\\Desktop\\SPORTKING\\images\\";
 	File imagefile=new File(path+img);
 	FileInputStream fis=new FileInputStream(imagefile);
 
@@ -31,11 +33,12 @@ try
 	Class.forName("com.mysql.jdbc.Driver");
 	
 	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ep_project","root","root");
-	PreparedStatement pstmt = con.prepareStatement("insert into products(product_desc,price,image,product_name) values(?,?,?,?)");
+	PreparedStatement pstmt = con.prepareStatement("insert into products(product_desc,price,image,product_name,category) values(?,?,?,?,?)");
 	pstmt.setString(1,product_desc);
 	pstmt.setDouble(2,cost);
 	pstmt.setBinaryStream(3, (InputStream)fis, (int)(imagefile.length()));
 	pstmt.setString(4,product_name);
+	pstmt.setString(5,category);
 	int n = pstmt.executeUpdate();
 	
 	if (n>0)
@@ -220,12 +223,33 @@ label.light {
 						<li class="nav-item"><a class="nav-link" href="about.jsp">About Us</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="features.html" id="dropdown-a" data-toggle="dropdown">Products</a>
+							<%
+							
+
+						    Class.forName("com.mysql.jdbc.Driver");
+						    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ep_project","root","root");
+						    
+						    PreparedStatement pstmt = con.prepareStatement("select distinct category from products");
+						    
+						    
+						    ResultSet rs = pstmt.executeQuery(); 
+							
+							%>
+							
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="Search.jsp">Shoes </a>
-								<a class="dropdown-item" href="Search.jsp">Bags</a>
-								<a class="dropdown-item" href="Search.jsp">Sports Wear</a>
-								<a class="dropdown-item" href="#">Sports Accessories</a>
-								<a class="dropdown-item" href="#">Fitness</a>
+							<%
+							 while(rs.next())
+							    {
+							 
+							
+							%>
+								<a class="dropdown-item" href="Search.jsp"><%=rs.getString(1)%></a>
+								
+								<%
+								
+								}
+								
+								%>
 							</div>
 						</li>
 						
@@ -255,6 +279,9 @@ label.light {
           
           <label for="mail">Enter Product Description</label>
           <input type="text" name="product_description">
+          
+          <label for="name">Enter Product Category</label>
+          <input type="text" name="product_category">
           
           <label>Enter Price</label>
           <input type="text" name="price"><br><br>

@@ -1,4 +1,4 @@
-
+<%@page import="java.sql.*" %>
 
 <%
 
@@ -46,16 +46,39 @@ if(name==null || email==null)
 
     <script src="js/modernizer.js"></script>
     
-  <script src="https://www.paypal.com/sdk/js?client-id=test"></script>
-<script>paypal.Buttons({
-	  style: {
-		    layout:  'vertical',
-		    color:   'blue',
-		    shape:   'rect',
-		    label:   'paypal'
-		    
-		  }
-		}).render('body');</script>
+    <script src="https://www.paypal.com/sdk/js?client-id=test"></script>
+
+<script>
+  paypal.Buttons({
+    style: {
+      size: 'responsive',
+    }
+  }).render('#paypal-button-container');
+</script>
+    
+<style>
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height: 250px;
+  width: 650px;
+  align: center;
+  margin-left: 400px
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+
+</style>
 
 
 </head>
@@ -82,12 +105,33 @@ if(name==null || email==null)
 						<li class="nav-item"><a class="nav-link" href="about.jsp">About Us</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="features.html" id="dropdown-a" data-toggle="dropdown">Products</a>
+							<%
+							
+
+						    Class.forName("com.mysql.jdbc.Driver");
+						    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ep_project","root","root");
+						    
+						    PreparedStatement pstmt = con.prepareStatement("select distinct category from products");
+						    
+						    
+						    ResultSet rs = pstmt.executeQuery(); 
+							
+							%>
+							
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="Search.jsp">Shoes </a>
-								<a class="dropdown-item" href="Search.jsp">Bags</a>
-								<a class="dropdown-item" href="Search.jsp">Sports Wear</a>
-								<a class="dropdown-item" href="#">Sports Accessories</a>
-								<a class="dropdown-item" href="#">Fitness</a>
+							<%
+							 while(rs.next())
+							    {
+							 
+							
+							%>
+								<a class="dropdown-item" href="Search.jsp"><%=rs.getString(1)%></a>
+								
+								<%
+								
+								}
+								
+								%>
 							</div>
 						</li>
 						
@@ -109,6 +153,9 @@ if(name==null || email==null)
 	
 	<h1 align="center">Payment To Be Done!!!!</h1>
 	
+	<div >
+	<div id="paypal-button-container" class="card"></div>
+	</div>
 
 	
 

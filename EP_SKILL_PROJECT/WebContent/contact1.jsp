@@ -1,3 +1,4 @@
+<%@page import="java.sql.*" %>
 <%
 
 
@@ -73,12 +74,33 @@ if(name==null || email==null)
 						<li class="nav-item"><a class="nav-link" href="about.jsp">About Us</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Products </a>
+								<%
+							
+
+						    Class.forName("com.mysql.jdbc.Driver");
+						    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ep_project","root","root");
+						    
+						    PreparedStatement pstmt = con.prepareStatement("select distinct category from products");
+						    
+						    
+						    ResultSet rs = pstmt.executeQuery(); 
+							
+							%>
+							
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="Search.jsp">Shoes </a>
-								<a class="dropdown-item" href="Search.jsp">Bags</a>
-								<a class="dropdown-item" href="Search.jsp">Sports Wear</a>
-								<a class="dropdown-item" href="#">Sports Accessories</a>
-								<a class="dropdown-item" href="#">Fitness</a>
+							<%
+							 while(rs.next())
+							    {
+							 
+							
+							%>
+								<a class="dropdown-item" href="Search.jsp"><%=rs.getString(1)%></a>
+								
+								<%
+								
+								}
+								
+								%>
 							</div>
 						</li>
 						<li class="nav-item active"><a class="nav-link" href="contact1.jsp">Contact</a></li>
@@ -209,7 +231,6 @@ if(name==null || email==null)
 
     <!-- ALL JS FILES -->
     <script src="js/all.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCKjLTXdq6Db3Xit_pW_GK4EXuPRtnod4o"></script>
 	<!-- Mapsed JavaScript -->
 	<script src="js/mapsed.js"></script>
 	<script src="js/01-custom-places-example.js"></script>

@@ -1,3 +1,5 @@
+<%@page import="java.sql.*"%>
+
 <%
 
 
@@ -81,12 +83,33 @@ if(name==null || email==null)
 						<li class="nav-item"><a class="nav-link" href="about.jsp">About Us</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="features.html" id="dropdown-a" data-toggle="dropdown">Products</a>
+							<%
+							
+
+						    Class.forName("com.mysql.jdbc.Driver");
+						    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ep_project","root","root");
+						    
+						    PreparedStatement pstmt = con.prepareStatement("select distinct category from products");
+						    
+						    
+						    ResultSet rs = pstmt.executeQuery(); 
+							
+							%>
+							
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="Search.jsp">Shoes </a>
-								<a class="dropdown-item" href="Search.jsp">Bags</a>
-								<a class="dropdown-item" href="Search.jsp">Sports Wear</a>
-								<a class="dropdown-item" href="#">Sports Accessories</a>
-								<a class="dropdown-item" href="#">Fitness</a>
+							<%
+							 while(rs.next())
+							    {
+							 
+							
+							%>
+								<a class="dropdown-item" href="Search.jsp"><%=rs.getString(1)%></a>
+								
+								<%
+								
+								}
+								
+								%>
 							</div>
 						</li>
 						
